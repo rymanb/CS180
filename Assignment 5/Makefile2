@@ -1,0 +1,31 @@
+GCC=clang
+GCCFLAGS=-Werror -Wall -Wextra -std=c11 -pedantic -g -O
+GCCFLAGS2=-Werror -Wall -Wextra -pedantic -g -O
+
+OBJECTS0=memmgr.c
+DRIVER0=driver.c
+
+VALGRIND_OPTIONS=-q --leak-check=full
+DIFF_OPTIONS=-y --strip-trailing-cr --suppress-common-lines -b
+
+OSTYPE := $(shell uname)
+ifeq ($(OSTYPE),Linux)
+CYGWIN=
+else
+CYGWIN=-Wl,--enable-auto-import
+endif
+
+gcc1:
+	gcc $(GCCFLAGS) memmgr.c $(DRIVER0) -o memmgr
+clang1:
+	clang $(GCCFLAGS) memmgr.c $(DRIVER0) -o memmgr
+pdf:
+	/home/mmead/bin/checkpdf.sh refman.pdf
+
+0:
+	#echo "running test$@"
+	#@echo "should run in less than 200 ms"
+	#watchdog 200 ./$(PRG) input.txt >studentout$@
+	#diff output$@.txt studentout$@ $(DIFF_OPTIONS) > difference$@
+clean : 
+	rm *.exe student* difference* *.o *.so

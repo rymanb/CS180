@@ -1,0 +1,24 @@
+============= CHECK CONTENT BEGINS 2022-11-10 14:40:08 ===============
+Archive:  ../2022-11-10-14-40-08.zip
+  inflating: memmgr.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-11-10-14-40-08.zip
+memmgr.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-11-10 14:40:08 ===============
+Archive:  ../2022-11-10-14-40-08.zip
+  inflating: memmgr.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE gcc1 ==============
+gcc -Werror -Wall -Wextra -std=c11 -pedantic -g -O memmgr.c driver.c -o memmgr
+======== COMPILE clang1 ==============
+clang -Werror -Wall -Wextra -std=c11 -pedantic -g -O memmgr.c driver.c -o memmgr
+======== COMPILE pdf ==============
+/home/mmead/bin/checkpdf.sh refman.pdf
+=========RUN=================
+======END REPORT=============

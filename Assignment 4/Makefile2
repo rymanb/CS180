@@ -1,0 +1,24 @@
+GCC=clang
+GCCFLAGS=-Werror -Wall -Wextra -std=c11 -pedantic -pthread -O -g
+
+OBJECTS0=matrix-thread.c
+DRIVER0=main-thread.c
+
+VALGRIND_OPTIONS=-q --leak-check=full
+DIFF_OPTIONS=-y --strip-trailing-cr --suppress-common-lines -b
+
+OSTYPE := $(shell uname)
+ifeq ($(OSTYPE),Linux)
+CYGWIN=
+else
+CYGWIN=-Wl,--enable-auto-import
+endif
+
+gcc:
+	gcc -o $(PRG) $(CYGWIN) $(DRIVER0) $(OBJECTS0) $(GCCFLAGS)
+clang:
+	clang -o $(PRG) $(CYGWIN) $(DRIVER0) $(OBJECTS0) $(GCCFLAGS)
+pdf:
+	/home/mmead/bin/checkpdf.sh refman.pdf
+clean : 
+	rm *.exe student* difference*

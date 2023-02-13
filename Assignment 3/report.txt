@@ -1,0 +1,97 @@
+============= CHECK CONTENT BEGINS 2022-10-13 14:27:29 ===============
+Archive:  ../2022-10-13-14-27-29.zip
+  inflating: child-matrix.c          
+  inflating: parent-matrix.c         
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-10-13-14-27-29.zip
+child-matrix.c found
+parent-matrix.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-10-13 14:27:29 ===============
+Archive:  ../2022-10-13-14-27-29.zip
+  inflating: child-matrix.c          
+  inflating: parent-matrix.c         
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE gcc0 ==============
+gcc -o processes-ryman.b.exe   parent-matrix.c -D_XOPEN_SOURCE -Wall -Wextra -std=c11 -pedantic -O -Wno-unused-result -Werror
+======== COMPILE gcc1 ==============
+gcc -o processes-ryman.b.exe   child-matrix.c -D_XOPEN_SOURCE -Wall -Wextra -std=c11 -pedantic -O -Wno-unused-result -Werror
+======== COMPILE clang0 ==============
+clang -o processes-ryman.b.exe   parent-matrix.c -D_XOPEN_SOURCE -Wall -Wextra -std=c11 -pedantic -O -Wno-unused-result -Werror
+======== COMPILE clang1 ==============
+clang -o processes-ryman.b.exe   child-matrix.c -D_XOPEN_SOURCE -Wall -Wextra -std=c11 -pedantic -O -Wno-unused-result -Werror
+======== COMPILE pdf ==============
+/home/mmead/bin/checkpdf.sh refman.pdf
+=========RUN=================
+======END REPORT=============
+
+
+============= CHECK CONTENT BEGINS 2022-10-14 12:46:49 ===============
+Archive:  ../2022-10-14-12-46-49.zip
+  inflating: child-matrix.c          
+  inflating: parent-matrix.c         
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-10-14-12-46-49.zip
+child-matrix.c found
+parent-matrix.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-10-14 12:46:49 ===============
+Archive:  ../2022-10-14-12-46-49.zip
+  inflating: child-matrix.c          
+  inflating: parent-matrix.c         
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE gcc0 ==============
+gcc -o processes-ryman.b.exe   parent-matrix.c -D_XOPEN_SOURCE -Wall -Wextra -std=c11 -pedantic -O -Wno-unused-result -Werror
+======== COMPILE gcc1 ==============
+gcc -o processes-ryman.b.exe   child-matrix.c -D_XOPEN_SOURCE -Wall -Wextra -std=c11 -pedantic -O -Wno-unused-result -Werror
+======== COMPILE clang0 ==============
+clang -o processes-ryman.b.exe   parent-matrix.c -D_XOPEN_SOURCE -Wall -Wextra -std=c11 -pedantic -O -Wno-unused-result -Werror
+======== COMPILE clang1 ==============
+clang -o processes-ryman.b.exe   child-matrix.c -D_XOPEN_SOURCE -Wall -Wextra -std=c11 -pedantic -O -Wno-unused-result -Werror
+======== COMPILE pdf ==============
+/home/mmead/bin/checkpdf.sh refman.pdf
+=========RUN=================
+======END REPORT=============
+
+
+============= CHECK CONTENT BEGINS 2022-10-14 21:59:04 ===============
+Archive:  ../2022-10-14-21-59-04.zip
+  inflating: child-matrix.c          
+  inflating: parent-matrix.c         
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-10-14-21-59-04.zip
+child-matrix.c found
+parent-matrix.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-10-14 21:59:05 ===============
+Archive:  ../2022-10-14-21-59-04.zip
+  inflating: child-matrix.c          
+  inflating: parent-matrix.c         
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE gcc0 ==============
+gcc -o processes-ryman.b.exe   parent-matrix.c -D_XOPEN_SOURCE -Wall -Wextra -std=c11 -pedantic -O -Wno-unused-result -Werror
+======== COMPILE gcc1 ==============
+gcc -o processes-ryman.b.exe   child-matrix.c -D_XOPEN_SOURCE -Wall -Wextra -std=c11 -pedantic -O -Wno-unused-result -Werror
+======== COMPILE clang0 ==============
+clang -o processes-ryman.b.exe   parent-matrix.c -D_XOPEN_SOURCE -Wall -Wextra -std=c11 -pedantic -O -Wno-unused-result -Werror
+======== COMPILE clang1 ==============
+clang -o processes-ryman.b.exe   child-matrix.c -D_XOPEN_SOURCE -Wall -Wextra -std=c11 -pedantic -O -Wno-unused-result -Werror
+======== COMPILE pdf ==============
+/home/mmead/bin/checkpdf.sh refman.pdf
+=========RUN=================
+======END REPORT=============

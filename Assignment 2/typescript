@@ -1,0 +1,1249 @@
+Script started on 2022-09-20 15:59:19-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="238" LINES="58"]
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ date
+Tue 20 Sep 2022 03:59:21 PM PDT
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ uptime
+ 15:59:21 up 20:22,  1 user,  load average: 1.31, 0.62, 0.37
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ echo RYMAN BARNETT
+RYMAN BARNETT
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ pwd
+/home/ryman/Desktop/180/Assignment2
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ whoami
+ryman
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ uname -a
+Linux ryman-VirtualBox 5.4.0-74-generic #83-Ubuntu SMP Sat May 8 02:35:39 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2591.998
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 0
+cpu cores	: 6
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 5183.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2591.998
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 1
+cpu cores	: 6
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 5183.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2591.998
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 2
+cpu cores	: 6
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 5183.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2591.998
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 3
+cpu cores	: 6
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 5183.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2591.998
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 4
+cpu cores	: 6
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 5183.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2591.998
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 5
+cpu cores	: 6
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit
+bogomips	: 5183.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ cat /proc/meminfo
+MemTotal:        8152364 kB
+MemFree:         1370092 kB
+MemAvailable:    5813032 kB
+Buffers:          135896 kB
+Cached:          4420496 kB
+SwapCached:            0 kB
+Active:          3554852 kB
+Inactive:        2631968 kB
+Active(anon):    1632528 kB
+Inactive(anon):   164172 kB
+Active(file):    1922324 kB
+Inactive(file):  2467796 kB
+Unevictable:          48 kB
+Mlocked:              48 kB
+SwapTotal:       1435264 kB
+SwapFree:        1435264 kB
+Dirty:               456 kB
+Writeback:             0 kB
+AnonPages:       1630420 kB
+Mapped:           677636 kB
+Shmem:            166272 kB
+KReclaimable:     356704 kB
+Slab:             480940 kB
+SReclaimable:     356704 kB
+SUnreclaim:       124236 kB
+KernelStack:       14700 kB
+PageTables:        25292 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     5511444 kB
+Committed_AS:    7577960 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       47884 kB
+VmallocChunk:          0 kB
+Percpu:             8288 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      290752 kB
+DirectMap2M:     8097792 kB
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ clang --version
+clang version 10.0.0-4ubuntu1 
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ gcc --version
+gcc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ clang -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 driver.c cachelist.c PRNG.c -o cachelist -pthread
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ ./cachelist | tee output.txt
+----- test_add_front ----------------------------------------
+==================
+   7: seven
+   6: six
+   5: five
+   4: four
+   3: three
+   2: two
+   1: one
+----- test_add_end ----------------------------------------
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+   5: five
+   6: six
+   7: seven
+----- test_remove1 ----------------------------------------
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   6: six
+   7: seven
+==================
+   2: two
+   3: three
+   6: six
+   7: seven
+==================
+   2: two
+   3: three
+   6: six
+----- test_add_remove2 ----------------------------------------
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   6: six
+   7: seven
+==================
+   2: two
+   3: three
+   6: six
+   7: seven
+==================
+   2: two
+   3: three
+   6: six
+==================
+   2: two
+   6: six
+==================
+   2: two
+==================
+==================
+----- test_insert_before1 ----------------------------------------
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+==================
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+==================
+ 102: barney
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+==================
+ 102: barney
+   1: one
+   2: two
+ 101: fred
+   3: three
+ 103: wilma
+   4: four
+==================
+ 104: betty
+ 102: barney
+   1: one
+   2: two
+ 101: fred
+   3: three
+ 103: wilma
+   4: four
+==================
+ 104: betty
+ 102: barney
+   1: one
+   2: two
+ 101: fred
+   3: three
+ 103: wilma
+   4: four
+----- test_insert_after1 ----------------------------------------
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+==================
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+==================
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+==================
+   1: one
+ 103: wilma
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+==================
+   1: one
+ 103: wilma
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+ 104: betty
+==================
+   1: one
+ 103: wilma
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+ 104: betty
+----- test_find1 (no cache) ----------------------------------------
+==================
+   0: node
+   1: node
+   2: node
+   3: node
+   4: node
+   5: node
+   6: node
+   7: node
+   8: node
+   9: node
+Comparisons to find 0: 1
+Comparisons to find 1: 2
+Comparisons to find 2: 3
+Comparisons to find 3: 4
+Comparisons to find 4: 5
+Comparisons to find 5: 6
+Comparisons to find 6: 7
+Comparisons to find 7: 8
+Comparisons to find 8: 9
+Comparisons to find 9: 10
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+Comparisons to find 6: 7
+==================
+   0: node
+   1: node
+   2: node
+   3: node
+   4: node
+   5: node
+   6: node
+   7: node
+   8: node
+   9: node
+Total comparisons: 155
+----- test_find2 (cache) ----------------------------------------
+==================
+   0: node
+   1: node
+   2: node
+   3: node
+   4: node
+   5: node
+   6: node
+   7: node
+   8: node
+   9: node
+Comparisons to find 0: 1
+Comparisons to find 1: 2
+Comparisons to find 2: 3
+Comparisons to find 3: 4
+Comparisons to find 4: 5
+Comparisons to find 5: 6
+Comparisons to find 6: 7
+Comparisons to find 7: 8
+Comparisons to find 8: 9
+Comparisons to find 9: 10
+Comparisons to find 6: 2
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+Comparisons to find 6: 1
+==================
+   6: node
+   7: node
+   9: node
+   8: node
+   5: node
+   4: node
+   3: node
+   2: node
+   1: node
+   0: node
+Total comparisons: 78
+----- test_find_stress1 (no cache) ----------------------------------------
+Adding... Done.
+Finding... Done.
+Total comparisons: 1311117500
+----- test_find_stress2 (with cache) ----------------------------------------
+Adding... Done.
+Finding... Done.
+Total comparisons: 15238690
+----- test_stress1 ----------------------------------------
+==================
+16900: 00016900
+15492: 00015492
+1560: 00001560
+1729: 00001729
+18458: 00018458
+14460: 00014460
+12562: 00012562
+3791: 00003791
+16981: 00016981
+18671: 00018671
+13348: 00013348
+4580: 00004580
+15819: 00015819
+17153: 00017153
+5688: 00005688
+6300: 00006300
+6809: 00006809
+7160: 00007160
+18855: 00018855
+8747: 00008747
+----- test_a_lot ----------------------------------------
+==================
+   7: node
+  20: node
+  19: node
+  11: node
+   2: node
+  12: node
+  11: node
+   1: node
+  10: node
+   4: node
+  13: node
+  12: node
+  20: node
+   6: node
+  12: node
+  20: node
+  19: node
+  18: node
+  11: node
+  20: node
+  11: node
+   6: node
+   7: node
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ diff output.txt output-all.txt
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ valgrind -q --leak-check=full --show-reachable=yes --tool=memcheck ./cachelist > /dev/null
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ doxygen
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ cd latex
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2/latex[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2/latex[00m$ make
+rm -f *.ps *.dvi *.aux *.toc *.idx *.ind *.ilg *.log *.out *.brf *.blg *.bbl refman.pdf
+pdflatex refman
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./refman.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array-2016-10-06.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty) (./doxygen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty))
+(./longtable_doxygen.sty) (./tabu_doxygen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hanging/hanging.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/stackengine/stackengine.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty)
+Writing index file refman.idx
+(/usr/share/texlive/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty)
+
+Package newunicodechar Warning: Redefining Unicode character on input line 113.
+
+
+
+Package newunicodechar Warning: Redefining Unicode character on input line 114.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/etoc/etoc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def)
+No file refman.aux.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+No file refman.toc.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./files.tex
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd)
+
+LaTeX Warning: Reference `cachelist_8c' on page 1 undefined on input line 3.
+
+) (./cachelist_8c.tex (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd) [1]
+Underfull \hbox (badness 10000) detected at line 38
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 41
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 44
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 47
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 50
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 53
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 56
+[][][]
+[2]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 1 on input line 80.
+
+
+Underfull \hbox (badness 10000) detected at line 81
+[][][]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 2 on input line 131.
+
+
+Underfull \hbox (badness 10000) detected at line 132
+[][][]
+[3]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 3 on input line 176.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 4 on input line 211.
+
+[4]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 5 on input line 250.
+
+
+Underfull \hbox (badness 10000) detected at line 251
+[][][]
+[5]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6 on input line 323.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 7 on input line 376.
+
+[6]
+Underfull \hbox (badness 10000) detected at line 377
+[][][]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 8 on input line 438.
+
+
+Underfull \hbox (badness 10000) detected at line 439
+[][][]
+[7]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 9 on input line 504.
+
+
+Underfull \hbox (badness 10000) detected at line 505
+[][][]
+) [8]
+No file refman.ind.
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+(./refman.aux)
+
+Package rerunfilecheck Warning: File `refman.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information){/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
+c/uhvro8a.pfb>
+Output written on refman.pdf (9 pages, 105783 bytes).
+Transcript written on refman.log.
+makeindex refman.idx
+This is makeindex, version 2.15 [TeX Live 2019] (kpathsea + Thai support).
+Scanning input file refman.idx....done (19 entries accepted, 0 rejected).
+Sorting entries....done (84 comparisons).
+Generating output file refman.ind....done (35 lines written, 0 warnings).
+Output written in refman.ind.
+Transcript written in refman.ilg.
+pdflatex refman
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./refman.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array-2016-10-06.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty) (./doxygen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty))
+(./longtable_doxygen.sty) (./tabu_doxygen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hanging/hanging.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/stackengine/stackengine.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty)
+Writing index file refman.idx
+(/usr/share/texlive/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty)
+
+Package newunicodechar Warning: Redefining Unicode character on input line 113.
+
+
+
+Package newunicodechar Warning: Redefining Unicode character on input line 114.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/etoc/etoc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def)
+(./refman.aux) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+(./refman.out) (./refman.out) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.
+map}] (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd) (./files.tex)
+(./cachelist_8c.tex (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd) [1]
+Underfull \hbox (badness 10000) detected at line 38
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 41
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 44
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 47
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 50
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 53
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 56
+[][][]
+[2]
+Underfull \hbox (badness 10000) detected at line 81
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 132
+[][][]
+[3] [4]
+Underfull \hbox (badness 10000) detected at line 251
+[][][]
+[5] [6]
+Underfull \hbox (badness 10000) detected at line 377
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 439
+[][][]
+[7]
+Underfull \hbox (badness 10000) detected at line 505
+[][][]
+) [8] (./refman.ind [9]) (./refman.aux)
+
+Package rerunfilecheck Warning: File `refman.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information){/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
+c/uhvro8a.pfb>
+Output written on refman.pdf (10 pages, 107883 bytes).
+Transcript written on refman.log.
+latex_count=8 ; \
+while egrep -s 'Rerun (LaTeX|to get cross-references right)' refman.log && [ $latex_count -gt 0 ] ;\
+    do \
+      echo "Rerunning latex...." ;\
+      pdflatex refman ;\
+      latex_count=`expr $latex_count - 1` ;\
+    done
+makeindex refman.idx
+This is makeindex, version 2.15 [TeX Live 2019] (kpathsea + Thai support).
+Scanning input file refman.idx....done (19 entries accepted, 0 rejected).
+Sorting entries....done (84 comparisons).
+Generating output file refman.ind....done (35 lines written, 0 warnings).
+Output written in refman.ind.
+Transcript written in refman.ilg.
+pdflatex refman
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./refman.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array-2016-10-06.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty) (./doxygen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty))
+(./longtable_doxygen.sty) (./tabu_doxygen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hanging/hanging.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/stackengine/stackengine.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.sty
+(/usr/share/texlive/texmf-dist/tex/generic/listofitems/listofitems.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/courier.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty)
+Writing index file refman.idx
+(/usr/share/texlive/texmf-dist/tex/latex/newunicodechar/newunicodechar.sty)
+
+Package newunicodechar Warning: Redefining Unicode character on input line 113.
+
+
+
+Package newunicodechar Warning: Redefining Unicode character on input line 114.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/etoc/etoc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def)
+(./refman.aux) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+(./refman.out) (./refman.out) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.
+map}] (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd) (./files.tex)
+(./cachelist_8c.tex (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd) [1]
+Underfull \hbox (badness 10000) detected at line 38
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 41
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 44
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 47
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 50
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 53
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 56
+[][][]
+[2]
+Underfull \hbox (badness 10000) detected at line 81
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 132
+[][][]
+[3] [4]
+Underfull \hbox (badness 10000) detected at line 251
+[][][]
+[5] [6]
+Underfull \hbox (badness 10000) detected at line 377
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 439
+[][][]
+[7]
+Underfull \hbox (badness 10000) detected at line 505
+[][][]
+) [8] (./refman.ind [9]) (./refman.aux) )
+(see the transcript file for additional information){/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
+c/uhvro8a.pfb>
+Output written on refman.pdf (10 pages, 107948 bytes).
+Transcript written on refman.log.
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2/latex[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2/latex[00m$ cd ..
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ ls -al latex/
+total 364
+drwxrwxr-x 2 ryman ryman   4096 Sep 20 15:59 [0m[01;34m.[0m
+drwxrwxr-x 4 ryman ryman   4096 Sep 20 15:59 [01;34m..[0m
+-rw-rw-r-- 1 ryman ryman  23917 Sep 20 15:59 cachelist_8c.tex
+-rw-rw-r-- 1 ryman ryman  14339 Sep 20 15:59 doxygen.sty
+-rw-rw-r-- 1 ryman ryman    417 Sep 20 15:59 files.tex
+-rw-rw-r-- 1 ryman ryman  12228 Sep 20 15:59 longtable_doxygen.sty
+-rw-rw-r-- 1 ryman ryman    544 Sep 20 15:59 Makefile
+-rw-rw-r-- 1 ryman ryman   4876 Sep 20 15:59 refman.aux
+-rw-rw-r-- 1 ryman ryman   1492 Sep 20 15:59 refman.idx
+-rw-rw-r-- 1 ryman ryman    329 Sep 20 15:59 refman.ilg
+-rw-rw-r-- 1 ryman ryman   1059 Sep 20 15:59 refman.ind
+-rw-rw-r-- 1 ryman ryman  33385 Sep 20 15:59 refman.log
+-rw-rw-r-- 1 ryman ryman   1087 Sep 20 15:59 refman.out
+-rw-rw-r-- 1 ryman ryman 107948 Sep 20 15:59 refman.pdf
+-rw-rw-r-- 1 ryman ryman   4714 Sep 20 15:59 refman.tex
+-rw-rw-r-- 1 ryman ryman   1540 Sep 20 15:59 refman.toc
+-rw-rw-r-- 1 ryman ryman 117547 Sep 20 15:59 tabu_doxygen.sty
+]0;ryman@ryman-VirtualBox: ~/Desktop/180/Assignment2[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/180/Assignment2[00m$ exit
+exit
+
+Script done on 2022-09-20 16:00:16-07:00 [COMMAND_EXIT_CODE="0"]

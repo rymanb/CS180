@@ -1,0 +1,280 @@
+Script started on 2022-10-13 14:23:05-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="238" LINES="58"]
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ ^?[Kdate
+Thu 13 Oct 2022 02:23:11 PM PDT
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ uptime
+ 14:23:11 up  4:10,  1 user,  load average: 0.89, 0.57, 0.52
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ echo FIRSTNAME LASTNAME
+FIRSTNAME LASTNAME
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ pwd
+/home/ryman/Desktop/Assignment 3
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ whoami
+ryman
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ uname -a
+Linux ryman-VirtualBox 5.4.0-125-generic #141-Ubuntu SMP Wed Aug 10 13:42:03 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2591.998
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 0
+cpu cores	: 6
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data
+bogomips	: 5183.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2591.998
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 1
+cpu cores	: 6
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data
+bogomips	: 5183.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2591.998
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 2
+cpu cores	: 6
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data
+bogomips	: 5183.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2591.998
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 3
+cpu cores	: 6
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data
+bogomips	: 5183.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2591.998
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 4
+cpu cores	: 6
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data
+bogomips	: 5183.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2591.998
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 5
+cpu cores	: 6
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data
+bogomips	: 5183.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ cat /proc/meminfo
+MemTotal:        8147776 kB
+MemFree:         3050008 kB
+MemAvailable:    5528592 kB
+Buffers:          203044 kB
+Cached:          2497168 kB
+SwapCached:            0 kB
+Active:          3300596 kB
+Inactive:        1323356 kB
+Active(anon):    1928204 kB
+Inactive(anon):   146524 kB
+Active(file):    1372392 kB
+Inactive(file):  1176832 kB
+Unevictable:          48 kB
+Mlocked:              48 kB
+SwapTotal:       1435264 kB
+SwapFree:        1435264 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:       1923856 kB
+Mapped:           626372 kB
+Shmem:            150992 kB
+KReclaimable:     233240 kB
+Slab:             358560 kB
+SReclaimable:     233240 kB
+SUnreclaim:       125320 kB
+KernelStack:       16464 kB
+PageTables:        28692 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     5509152 kB
+Committed_AS:    8144212 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       41784 kB
+VmallocChunk:          0 kB
+Percpu:            10880 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      348096 kB
+DirectMap2M:     8040448 kB
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ gcc -D_XOPEN_SOURCE -Werror -Wall -Wextra -ansi -pedantic -O -Wno-unused-result parent-matrix.c -o parent-matrix
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ gcc -D_XOPEN_SOURCE -Werror -Wall -Wextra -ansi -pedantic -O -Wno-unused-result child-matrix.c -o child-matrix
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ clang -D_XOPEN_SOURCE -Werror -Wall -Wextra -ansi -pedantic -O -Wno-unused-result parent-matrix.c -o parent-matrix
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ clang -D_XOPEN_SOURCE -Werror -Wall -Wextra -ansi -pedantic -O -Wno-unused-result child-matrix.c -o child-matrix
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ ./parent-matrix mat16.txt child-matrix | tee output.txt
+     -10      -1       3       4       9      -7       9      -3       3      -5       4       6      -8       9       9      10
+      -9      -2       4       7       1      -2       5      -3      -2      -7       0      -7       4       1       2       0
+      -2      -4      -2      10      -2      -2       5      -2     -10       5       4       9     -10       5       0       5
+       4       6       2       9     -10      -6       7       5      -7       9      -6       3       8       9      -6       4
+      -8      -1      -5      -9      -5      -5       2     -10       8       0       2       3      -1       5       0       4
+       5       5       4      -7      -6      -8       3       7      10      10      10       5      -9       0      -5      -6
+      -7       1       0     -10      -2      -9      -3       3       7       3       3       2      -2      -6       1       2
+      10       4       3       7       2       4      10       1      10       6      -2     -10      -7      -4      -5      -2
+       2      -5     -10      -6      -8     -10      -9      -3       1       0       2       7       1      -6      -9       4
+      -5       2      -1       6       2      -1      -9     -10      -3      -5      10       7       2      10      10       8
+      -1      -2       3       3       9      10       4      -3      10       0       3      -7       4      -1       9      -4
+      -6      -6      -6       7      -1       5      -4       6       8       5      -1      -8      -3      -2       0      -1
+       8       6       0       2       8      -7       6     -10      -1      -5       8       5      -8      -1       8      -4
+       5      -8      -3       0      -9      -7       7       2       2       5     -10       2       7      -8       3       5
+      -3      -2       9      10       6       9       9       6      -3      -6     -10      -7       9      -1       0       1
+       9       9       7      -2       6      -3      -3       0      -7      -6     -10       0       3      -9       1       3
+
+     -46    -140     -39     -64    -199      49     -36     149     -16      73    -453    -149     364    -284    -125      99
+     149      71      33     -64    -126     -54      87      56    -164      92    -124      51     106     -71    -114     -76
+     -62      10      71     137     -88     139     -38     223       3     166    -228    -133     243      39      55      83
+      81     108      63     303      18    -212     121     -36    -194       7     -50      63      -6      43     200     170
+      13    -154    -140    -211     -20      44    -355      11     -50    -142    -111     -26     216    -307      14     -45
+    -255    -254    -165     170      85     135    -175    -123     163     -46     164     -92     -29      19     127     146
+      -4     -84     -89      22     145     254    -257    -115     -33    -186     -12    -162      56    -144     -12     -53
+    -197      52     -36    -138    -172    -392     -51     -86      -1      53     220     314     -82     202     -77     248
+      67       6     -96     -17     240     228    -306     -64     -36    -194     -14    -130      22     -67     103     -80
+      75     -88     102     202      24     188     162     108    -108     -45    -370    -174     375    -110      90     -38
+     -23       8     -18    -167    -141    -219      83     -62      99      65     154     219     -19      46    -100      18
+     272     139     -14     -88    -190     -48     -98      29       4     125      11      70     107      15    -229     -33
+    -511    -228      10      46      62     109      88      32      78    -115    -123    -123     212     122     123     136
+      65     165      31      44     198     -63    -163      -3    -176    -159      15      92    -102     -20      40      87
+     216     239      67     -92    -221    -370     263      48     -63     256      64     234    -251      30    -210     -20
+    -206      67     106     134     173     -44     191     -99    -184    -184      19      14    -223     188      36      70
+
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ diff output16.txt output.txt
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ valgrind -q --leak-check=full --show-reachable=yes --trace-children=yes --tool=memcheck ./parent-matrix mat5.txt ./child-matrix
+      16      14      16      12      15
+       8       8     -16     -19      -6
+     -17      -2      20      11       5
+     -15      -6     -10       5      19
+      16      -4      16      10       5
+
+     156     172     472     312     539
+     653     346    -226    -387    -399
+    -713    -380     130     159      91
+     111    -344     -90      39     -49
+    -118      80     620     544     559
+
+]0;ryman@ryman-VirtualBox: ~/Desktop/Assignment 3[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/Assignment 3[00m$ exit
+exit
+
+Script done on 2022-10-13 14:23:17-07:00 [COMMAND_EXIT_CODE="0"]

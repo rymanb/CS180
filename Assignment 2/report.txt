@@ -1,0 +1,62 @@
+============= CHECK CONTENT BEGINS 2022-09-19 14:29:49 ===============
+Archive:  ../2022-09-19-14-29-49.zip
+  inflating: cachelist.c             
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-09-19-14-29-49.zip
+cachelist.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-09-19 14:29:50 ===============
+Archive:  ../2022-09-19-14-29-49.zip
+  inflating: cachelist.c             
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE clang ==============
+clang -o cachelist-ryman.b.exe  driver.c cachelist.c PRNG.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -pthread
+======== COMPILE gcc ==============
+gcc -o cachelist-ryman.b.exe  driver.c cachelist.c PRNG.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -pthread
+=========RUN=================
+running pdf-tablen    -- OK
+======END REPORT=============
+
+
+============= CHECK CONTENT BEGINS 2022-09-20 16:02:06 ===============
+Archive:  ../2022-09-20-16-02-05.zip
+  inflating: cachelist.c             
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-09-20-16-02-05.zip
+cachelist.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-09-20 16:02:06 ===============
+Archive:  ../2022-09-20-16-02-05.zip
+  inflating: cachelist.c             
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE clang ==============
+clang -o cachelist-ryman.b.exe  driver.c cachelist.c PRNG.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -pthread
+======== COMPILE gcc ==============
+gcc -o cachelist-ryman.b.exe  driver.c cachelist.c PRNG.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -pthread
+=========RUN=================
+running pdf-tablen    -- OK
+======END REPORT=============
+
+
+============= REPORT BEGINS 2022-09-20 21:02:26 ===============
+Archive:  ../2022-09-20-16-02-05.zip
+  inflating: cachelist.c             
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE clang ==============
+clang -o cachelist-ryman.b.exe  driver.c cachelist.c PRNG.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -pthread
+======== COMPILE gcc ==============
+gcc -o cachelist-ryman.b.exe  driver.c cachelist.c PRNG.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -pthread
+=========RUN=================
+running pdf-tablen    -- OK
+======END REPORT=============

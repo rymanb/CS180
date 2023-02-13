@@ -1,0 +1,255 @@
+Script started on 2022-11-10 14:29:18-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;ryman@ryman-VirtualBox: ~/Desktop/MemMgr[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/MemMgr[00m$ date
+Thu 10 Nov 2022 02:29:19 PM PST
+]0;ryman@ryman-VirtualBox: ~/Desktop/MemMgr[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/MemMgr[00m$ uptime
+ 14:29:20 up  1:47,  1 user,  load average: 0.18, 0.21, 0.26
+]0;ryman@ryman-VirtualBox: ~/Desktop/MemMgr[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/MemMgr[00m$ echo RYMAN BARNETT
+RYMAN BARNETT
+]0;ryman@ryman-VirtualBox: ~/Desktop/MemMgr[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/MemMgr[00m$ pwd
+/home/ryman/Desktop/MemMgr
+]0;ryman@ryman-VirtualBox: ~/Desktop/MemMgr[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/MemMgr[00m$ whoami
+ryman
+]0;ryman@ryman-VirtualBox: ~/Desktop/MemMgr[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/MemMgr[00m$ uname -a
+Linux ryman-VirtualBox 5.4.0-125-generic #141-Ubuntu SMP Wed Aug 10 13:42:03 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+]0;ryman@ryman-VirtualBox: ~/Desktop/MemMgr[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/MemMgr[00m$ cat /proc/cpuinfo 
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2592.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 0
+cpu cores	: 6
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data
+bogomips	: 5184.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2592.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 1
+cpu cores	: 6
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data
+bogomips	: 5184.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2592.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 2
+cpu cores	: 6
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data
+bogomips	: 5184.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2592.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 3
+cpu cores	: 6
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data
+bogomips	: 5184.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2592.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 4
+cpu cores	: 6
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data
+bogomips	: 5184.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 165
+model name	: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+stepping	: 2
+cpu MHz		: 2592.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 6
+core id		: 5
+cpu cores	: 6
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single fsgsbase avx2 invpcid rdseed clflushopt md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs itlb_multihit srbds mmio_stale_data
+bogomips	: 5184.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+]0;ryman@ryman-VirtualBox: ~/Desktop/MemMgr[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/MemMgr[00m$ cat /proc/meminfo 
+MemTotal:        8147776 kB
+MemFree:         2698488 kB
+MemAvailable:    5919544 kB
+Buffers:          182868 kB
+Cached:          3243864 kB
+SwapCached:            0 kB
+Active:          2567208 kB
+Inactive:        2452916 kB
+Active(anon):    1596704 kB
+Inactive(anon):   125740 kB
+Active(file):     970504 kB
+Inactive(file):  2327176 kB
+Unevictable:          48 kB
+Mlocked:              48 kB
+SwapTotal:       1435264 kB
+SwapFree:        1435264 kB
+Dirty:               124 kB
+Writeback:             0 kB
+AnonPages:       1593444 kB
+Mapped:           607024 kB
+Shmem:            129044 kB
+KReclaimable:     227256 kB
+Slab:             325872 kB
+SReclaimable:     227256 kB
+SUnreclaim:        98616 kB
+KernelStack:       14300 kB
+PageTables:        24956 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     5509152 kB
+Committed_AS:    7353988 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       39484 kB
+VmallocChunk:          0 kB
+Percpu:             5920 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      217024 kB
+DirectMap2M:     8171520 kB
+]0;ryman@ryman-VirtualBox: ~/Desktop/MemMgr[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/MemMgr[00m$ gcc -O2 -g -Wall -Wextra -Werror -std=c11 -pedantic memmgr.c driver-sample.c -o memmgr
+]0;ryman@ryman-VirtualBox: ~/Desktop/MemMgr[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/MemMgr[00m$ ./memmgr 2 0 | tee output.txt
+
+<<<<<<<< test_alloc2 >>>>>>>>
+=========================================
+    label: START
+  address: 0x000000
+     size: 300
+allocated: false
+--
+Allocated bytes:        0 [blocks:     0]
+     Free bytes:      300 [blocks:     1]
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+=========================================
+    label: one
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 270
+allocated: false
+--
+Allocated bytes:       30 [blocks:     1]
+     Free bytes:      270 [blocks:     1]
+]0;ryman@ryman-VirtualBox: ~/Desktop/MemMgr[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/MemMgr[00m$ diff --strip-trailing-cr output.txt output-alloc2.txt
+]0;ryman@ryman-VirtualBox: ~/Desktop/MemMgr[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/MemMgr[00m$ valgrind -q --leak-check=full --show-reachable=yes --tool=memcheck ./memmgr > /dev/null
+]0;ryman@ryman-VirtualBox: ~/Desktop/MemMgr[01;32mryman@ryman-VirtualBox[00m:[01;34m~/Desktop/MemMgr[00m$ exit
+exit
+
+Script done on 2022-11-10 14:30:10-08:00 [COMMAND_EXIT_CODE="0"]

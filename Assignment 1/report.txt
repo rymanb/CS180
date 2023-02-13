@@ -1,0 +1,273 @@
+============= CHECK CONTENT BEGINS 2022-09-11 19:13:41 ===============
+Archive:  ../2022-09-11-19-13-41.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-09-11-19-13-41.zip
+logger.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-09-11 19:13:41 ===============
+Archive:  ../2022-09-11-19-13-41.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE clang ==============
+clang -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign
+======== COMPILE gcc ==============
+gcc -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign -Wno-stringop-truncation
+=========RUN=================
+running pdf-tablen    -- OK
+======END REPORT=============
+
+
+============= CHECK CONTENT BEGINS 2022-09-12 10:43:59 ===============
+Archive:  ../2022-09-12-10-43-59.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-09-12-10-43-59.zip
+logger.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-09-12 10:43:59 ===============
+Archive:  ../2022-09-12-10-43-59.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE clang ==============
+clang -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign
+======== COMPILE gcc ==============
+gcc -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign -Wno-stringop-truncation
+=========RUN=================
+running pdf-tablen    -- OK
+======END REPORT=============
+
+
+============= CHECK CONTENT BEGINS 2022-09-12 12:04:13 ===============
+Archive:  ../2022-09-12-12-04-13.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-09-12-12-04-13.zip
+logger.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-09-12 12:04:13 ===============
+Archive:  ../2022-09-12-12-04-13.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE clang ==============
+clang -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign
+======== COMPILE gcc ==============
+gcc -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign -Wno-stringop-truncation
+=========RUN=================
+running pdf-tablen    -- OK
+======END REPORT=============
+
+
+============= CHECK CONTENT BEGINS 2022-09-12 21:28:24 ===============
+Archive:  ../2022-09-12-21-28-24.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-09-12-21-28-24.zip
+logger.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= CHECK CONTENT BEGINS 2022-09-13 10:39:43 ===============
+Archive:  ../2022-09-13-10-39-43.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-09-13-10-39-43.zip
+logger.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-09-13 10:39:43 ===============
+Archive:  ../2022-09-13-10-39-43.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE clang ==============
+clang -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign
+======== COMPILE gcc ==============
+gcc -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign -Wno-stringop-truncation
+=========RUN=================
+running pdf-tablen    -- OK
+======END REPORT=============
+
+
+============= CHECK CONTENT BEGINS 2022-09-13 12:36:57 ===============
+Archive:  ../2022-09-13-12-36-57.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-09-13-12-36-57.zip
+logger.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-09-13 12:36:57 ===============
+Archive:  ../2022-09-13-12-36-57.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE clang ==============
+clang -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign
+======== COMPILE gcc ==============
+gcc -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign -Wno-stringop-truncation
+=========RUN=================
+running pdf-tablen    -- OK
+======END REPORT=============
+
+
+============= CHECK CONTENT BEGINS 2022-09-13 12:54:13 ===============
+Archive:  ../2022-09-13-12-54-12.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-09-13-12-54-12.zip
+logger.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-09-13 12:54:13 ===============
+Archive:  ../2022-09-13-12-54-12.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE clang ==============
+clang -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign
+======== COMPILE gcc ==============
+gcc -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign -Wno-stringop-truncation
+=========RUN=================
+running pdf-tablen   /home/mmead/bin/tablen -v logger.c >>studentoutpdf-tablen
+make: [pdf-tablen] Error 1 (ignored)
+/home/mmead/bin/checkpdf.sh refman.pdf >>studentoutpdf-tablen
+diff output.txt studentoutpdf-tablen -y -W200 --strip-trailing-cr --suppress-common-lines -b >> differencepdf-tablen
+make: [pdf-tablen] Error 1 (ignored)
+												   >	# 46: (tabs: 1) |	int len = (strlen(filename) + 1);         // length of filename|
+												   >	# 47: (tabs: 1) |	LOG_BUFSIZE = buffersize;                 // store buffersize|
+												   >	# 48: (tabs: 1) |	LOG_BYTECOUNT = 0;                        // Initial bytes read are 0|
+												   >	# 49: (tabs: 1) |	LOG_FILENAME = (char *)malloc(len);       // allocate space for filename
+												   >	# 50: (tabs: 1) |	LOG_BUFFER = (char *)malloc(LOG_BUFSIZE); // allocate buffer memory|
+												   >	# 52: (tabs: 1) |	// make sure both mallocs were successfull|
+												   >	# 53: (tabs: 1) |	if (LOG_BUFFER == NULL || LOG_FILENAME == NULL)|
+												   >	# 54: (tabs: 1) |	{|
+												   >	# 55: (tabs: 2) |		free(LOG_BUFFER);   // free buffer if it was allocated|
+												   >	# 56: (tabs: 2) |		free(LOG_FILENAME); // free filename if it was allocated|
+												   >	# 58: (tabs: 2) |		return LOG_NOMEM; // memory not allocated|
+												   >	# 59: (tabs: 1) |	}|
+												   >	# 61: (tabs: 1) |	// copy file name|
+												   >	# 62: (tabs: 1) |	strcpy(LOG_FILENAME, filename);|
+												   >	# 64: (tabs: 1) |	// open file|
+												   >	# 65: (tabs: 1) |	LOG_FH = open(LOG_FILENAME, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IW
+												   >	# 67: (tabs: 1) |	// validate opened file|
+												   >	# 68: (tabs: 1) |	if (LOG_FH == -1)|
+												   >	# 69: (tabs: 1) |	{|
+												   >	# 70: (tabs: 2) |		free(LOG_FILENAME); // free filename if it was allocated|
+												   >	# 71: (tabs: 2) |		free(LOG_BUFFER);   // free buffer if it was allocated|
+												   >	# 73: (tabs: 2) |		return LOG_OPENFAIL; // file not opened|
+												   >	# 74: (tabs: 1) |	}|
+												   >	# 76: (tabs: 1) |	return LOG_SUCCESS; // no errors file was opened|
+												   >	# 88: (tabs: 1) |	// try to write buffer to file|
+												   >	# 89: (tabs: 1) |	if (LOG_BYTECOUNT == 0 || write(LOG_FH, LOG_BUFFER, LOG_BYTECOUNT))|
+												   >	# 90: (tabs: 1) |	{|
+												   >	# 91: (tabs: 2) |		// sync file|
+												   >	# 92: (tabs: 2) |		if (fsync(LOG_FH) != -1)|
+												   >	# 93: (tabs: 2) |		{|
+												   >	# 94: (tabs: 3) |			LOG_BYTECOUNT = 0;  // reset buffer counter|
+												   >	# 96: (tabs: 3) |			return LOG_SUCCESS; // success|
+												   >	# 97: (tabs: 2) |		}|
+												   >	# 98: (tabs: 1) |	}|
+												   >	#100: (tabs: 1) |	log_close(); // close for error|
+												   >	#102: (tabs: 1) |	return LOG_WRITEFAIL; // failed to write or could not sync file|
+												   >	#119: (tabs: 1) |	long unsigned i = 0; // loop counter|
+												   >	#121: (tabs: 1) |	// for each letter in text|
+												   >	#122: (tabs: 1) |	while (i < strlen(text))|
+												   >	#123: (tabs: 1) |	{|
+												   >	#124: (tabs: 2) |		// check if it should flush|
+												   >	#125: (tabs: 2) |		if (LOG_BYTECOUNT < LOG_BUFSIZE)|
+												   >	#126: (tabs: 2) |		{|
+												   >	#127: (tabs: 3) |			// if not write the text char into buffer|
+												   >	#128: (tabs: 3) |			LOG_BUFFER[LOG_BYTECOUNT] = text[i];|
+												   >	#129: (tabs: 3) |			++LOG_BYTECOUNT; // another byte read|
+												   >	#130: (tabs: 3) |			++i; // move text buffer counter|
+												   >	#131: (tabs: 2) |		}|
+												   >	#132: (tabs: 2) |		else // if it should flush|
+												   >	#133: (tabs: 2) |		{|
+												   >	#134: (tabs: 3) |			// flush buffer into file|
+												   >	#135: (tabs: 3) |			if (log_flush() == LOG_WRITEFAIL)|
+												   >	#136: (tabs: 3) |			{|
+												   >	#137: (tabs: 4) |				log_close();|
+												   >	#139: (tabs: 4) |				return LOG_WRITEFAIL; // failed to write|
+												   >	#140: (tabs: 3) |			}|
+												   >	#141: (tabs: 2) |		}|
+												   >	#142: (tabs: 1) |	}|
+												   >	#144: (tabs: 1) |	// check if final buffer is full|
+												   >	#145: (tabs: 1) |	if (LOG_BYTECOUNT >= LOG_BUFSIZE)|
+												   >	#146: (tabs: 1) |	{|
+												   >	#147: (tabs: 2) |		// flush buffer into file|
+												   >	#148: (tabs: 2) |		if (log_flush() == LOG_WRITEFAIL)|
+												   >	#149: (tabs: 2) |		{|
+												   >	#150: (tabs: 3) |			log_close();|
+												   >	#152: (tabs: 3) |			return LOG_WRITEFAIL; // failed to write|
+												   >	#153: (tabs: 2) |		}|
+												   >	#154: (tabs: 1) |	}|
+												   >	#156: (tabs: 1) |	return LOG_SUCCESS; // succeded|
+												   >	#169: (tabs: 1) |	// flush remaining buffer into file|
+												   >	#170: (tabs: 1) |	LOG_RESULT writeRes =  log_flush();|
+												   >	#172: (tabs: 1) |	close(LOG_FH);      // close file|
+												   >	#173: (tabs: 1) |	free(LOG_BUFFER);   // free buffer|
+												   >	#174: (tabs: 1) |	free(LOG_FILENAME); // free filename|
+												   >	#176: (tabs: 1) |	LOG_BUFFER = NULL;  // reset dangling pointer|
+												   >	#177: (tabs: 1) |	LOG_FH = -1;        // reset dangling pointer|
+												   >	#178: (tabs: 1) |	LOG_FILENAME = NULL;// reset dangling pointer|
+												   >	#179: (tabs: 1) |	LOG_BUFSIZE = 0;    // reset size counter|
+												   >	#180: (tabs: 1) |	LOG_BYTECOUNT = 0;  // reset bytes read|
+												   >	#182: (tabs: 1) |	return writeRes; // result of write|
+												   >	#191: (tabs: 1) |	printf("BUFF[");|
+												   >	#193: (tabs: 1) |	for (unsigned i = 0; i < LOG_BYTECOUNT; i++)|
+												   >	#194: (tabs: 2) |		printf("%c", LOG_BUFFER[i]);|
+												   >	#196: (tabs: 1) |	printf("]BUFF\n");|
+												   >	*****  TABS IN USE  *****: Number of tabs in the file is 136.
+======END REPORT=============
+
+
+============= CHECK CONTENT BEGINS 2022-09-13 12:55:47 ===============
+Archive:  ../2022-09-13-12-55-47.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-09-13-12-55-47.zip
+logger.c found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-09-13 12:55:47 ===============
+Archive:  ../2022-09-13-12-55-47.zip
+  inflating: logger.c                
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE clang ==============
+clang -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign
+======== COMPILE gcc ==============
+gcc -o logger-ryman.b.exe  driver.c logger.c -Werror -Wall -Wextra -std=c11 -pedantic -g -O2 -Wno-pointer-sign -Wno-stringop-truncation
+=========RUN=================
+running pdf-tablen    -- OK
+======END REPORT=============

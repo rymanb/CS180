@@ -1,0 +1,48 @@
+============= CHECK CONTENT BEGINS 2022-10-28 13:06:21 ===============
+Archive:  ../2022-10-28-13-06-21.zip
+  inflating: Doxyfile                
+  inflating: main-thread.c           
+  inflating: matrix-thread.c         
+  inflating: matrix-thread.h         
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-10-28-13-06-21.zip
+main-thread.c found
+matrix-thread.c found
+matrix-thread.h found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
+
+============= REPORT BEGINS 2022-10-28 13:06:21 ===============
+Archive:  ../2022-10-28-13-06-21.zip
+  inflating: main-thread.c           
+  inflating: matrix-thread.c         
+  inflating: matrix-thread.h         
+  inflating: refman.pdf              
+  inflating: typescript              
+======== COMPILE gcc ==============
+gcc -o threads-ryman.b.exe  main-thread.c matrix-thread.c -Werror -Wall -Wextra -std=c11 -pedantic -pthread -O -g
+======== COMPILE clang ==============
+clang -o threads-ryman.b.exe  main-thread.c matrix-thread.c -Werror -Wall -Wextra -std=c11 -pedantic -pthread -O -g
+======== COMPILE pdf ==============
+/home/mmead/bin/checkpdf.sh refman.pdf
+=========RUN=================
+======END REPORT=============
+
+
+============= CHECK CONTENT BEGINS 2022-10-28 20:25:56 ===============
+Archive:  ../2022-10-28-20-25-56.zip
+  inflating: Doxyfile                
+  inflating: main-thread.c           
+  inflating: matrix-thread.c         
+  inflating: matrix-thread.h         
+  inflating: refman.pdf              
+  inflating: typescript              
+Checking content of 2022-10-28-20-25-56.zip
+main-thread.c found
+matrix-thread.c found
+matrix-thread.h found
+refman.pdf found
+typescript found
+============= CHECK CONTENT ENDS ==========================
